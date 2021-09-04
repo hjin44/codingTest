@@ -11,8 +11,8 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		int input1 = in.nextInt();
 		
-		int[] input2 = new int[input1];
-		int[] input3 = new int[input1];
+		int[] input2 = new int[input1];///A
+		int[] input3 = new int[input1];///B
 		
 		for(int i = 0; i < input1; i++) {
 			input2[i] = in.nextInt();
@@ -22,9 +22,9 @@ public class Main {
 		}
 		
 		for(int i=0; i<input1; i++) {
-			if(input2[i] == input3[i]) {
+			if(input2[i] == input3[i]) {////비기는 경우
 				System.out.println("D");
-			}else if(input2[i]-input3[i] == 1 || input2[i]-input3[i] == -2) {
+			}else if(input2[i]-input3[i] == 1 || input2[i]-input3[i] == -2) {///a가 이기는 경우
 				System.out.println("A");
 			}else {
 				System.out.println("B");

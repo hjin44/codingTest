@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int input1 = in.nextInt();
-		String[] array = new String[input1];
+		String[] array = new String[input1];////왜 인티저로 안 받았을까???
 		for(int i = 0 ; i < input1; i++) {
 			array[i] = in.next();
 		}
@@ -16,7 +16,7 @@ public class Main {
 		for(String x : array) {
 			if(Integer.parseInt(x) > tmp ) {
 				count++;
-				tmp = Integer.parseInt(x);
+				tmp = Integer.parseInt(x);///제일 큰 값
 			}
 		}
 		System.out.println(count);

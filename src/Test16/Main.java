@@ -8,9 +8,9 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		int input1 = in.nextInt();
 		
-		int[] arr = new int[input1+1];
+		int[] arr = new int[input1+1];////
 		arr[0] = 1;
-		int tmp = 0;
+		int tmp = 0;////앞에 0이 있다고 생각을 했다...
 		for(int i = 0; i < input1; i++) {
 
 			arr[i+1] = arr[i]+tmp;

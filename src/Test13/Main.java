@@ -9,11 +9,16 @@ public class Main {
 		int input1 = in.nextInt();
 		int[] input2 = new int[input1];
 		
+		int tmp = 0;
 		for(int i = 0; i<input1; i++) {
 			input2[i] = in.nextInt();
+			/////if(x > tmp) {
+			////System.out.print(x + " ");
+			///}
+			////tmp = x;
 		}
 		
-		int tmp = 0;
+		
 		for(int x : input2) {
 			if(x > tmp) {
 				System.out.print(x + " ");
