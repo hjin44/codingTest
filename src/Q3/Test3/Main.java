@@ -8,7 +8,7 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		int in1 = in.nextInt();
 		int in2 = in.nextInt();
-		int[] in3 = new int[in1 + 100000];
+		int[] in3 = new int[in1];
 		for(int i = 0; i<in1; i++) {
 			in3[i] = in.nextInt();
 		}

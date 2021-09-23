@@ -1,4 +1,4 @@
-package Q4.Test6;//// 최대 길이 연속부분수열
+package Q3.Test6;//// 최대 길이 연속부분수열
 
 import java.util.Scanner;
 
